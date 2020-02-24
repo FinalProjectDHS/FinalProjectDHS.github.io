@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #08D258;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: white; /* Dark background color */
+  border: 1px solid #555;
+
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: Left; /* Make sure that the links stay side-by-side */
+  display: flex; /* Change the display to block, for responsive reasons (see below) */
+  color: Black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+ flex-direction: row;
+	
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
