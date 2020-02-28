@@ -9,7 +9,7 @@ body {
   text-align: center;
   background-image: url(greengrass.jpg);
   color: black;
-	background-size: 100%;
+  background-size: 100%;
 }
 
 .header h1 {
@@ -33,7 +33,7 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-	border-right:  1px solid #555;
+  border-right:  1px solid #555;
 }
 
 .navbar a.right {
@@ -45,8 +45,53 @@ body {
   color: black;
 }
 
+.Rows {
+	display: flex;
+	flex-direction: row;
+	margin: 3vh 0vh 3vh 2vh;
+}
 
+.ReverseRows {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 3vh 0vh 3vh 2vh;
+}
 
+.picturestuff1 {
+	height: 30vh;
+	float: left;
+
+}
+.picturestuff2 {
+	height: 30vh;
+	float: right;
+}
+
+.TextAlign1 {
+	margin-left: 2vh;
+	margin-right: 2vh;
+	float: left;
+	text-align: left;
+}
+
+.TextAlign2 {
+	margin-left: 2vh;
+	margin-right: 2vh;
+	float: right;
+	text-align: right;
+}
+
+.textsze1 {
+	font-size: 4vh;
+	margin-top: 0vh;
+	margin-bottom: 2vh;
+}
+
+.textsize2 {
+	font-size: 2vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
 
 .footer {
   padding: 20px;
