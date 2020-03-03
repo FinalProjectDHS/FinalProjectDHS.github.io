@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:200&display=swap');
+
 body {
+	font-family: 'Roboto Slab', serif;
 	margin: 5px;
 }
 .header {
@@ -44,6 +47,11 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+.textCenter {
+	text-align: center;
+}
+
 
 .Rows {
 	display: flex;
