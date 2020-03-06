@@ -79,14 +79,14 @@ body {
 	margin-left: 2vh;
 	margin-right: 2vh;
 	float: left;
-	text-align: left;
+	text-align: center;
 }
 
 .TextAlign2 {
 	margin-left: 2vh;
 	margin-right: 2vh;
 	float: right;
-	text-align: right;
+	text-align: center;
 }
 
 .textsze1 {
@@ -99,6 +99,21 @@ body {
 	font-size: 2vh;
 	margin-top: 1vh;
 	margin-bottom: 1vh;
+}
+
+.warning {
+  padding: 40px;
+  text-align: center;
+  background: #ddd;
+}
+
+.redtext {
+	color: red;
+}
+
+.margin {
+	margin-left: 30vw ;
+	margin-right: 30vw;
 }
 
 .footer {
